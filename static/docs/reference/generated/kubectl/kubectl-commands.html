@@ -3031,7 +3031,7 @@ inspect them.</p>
 <blockquote class="code-block example">
 <p> Delete resources from all files that end with &#39;.json&#39; - i.e. expand wildcard characters in file names</p>
 </blockquote>
-<pre class="code-block example"><code class="lang-shell"><span class="hljs-attribute">kubectl</span> apply -f <span class="hljs-string">'*.json'</span>
+<pre class="code-block example"><code class="lang-shell"><span class="hljs-attribute">kubectl</span> delete -f <span class="hljs-string">'*.json'</span>
 </code></pre>
 <blockquote class="code-block example">
 <p> Delete a pod based on the type and name in the JSON passed into stdin</p>
